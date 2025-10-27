@@ -1,15 +1,13 @@
-package com.example.demo.application.port.in;
+package com.example.demo.application.port.in.turmaServiceControllerSQLPort;
 
-import java.lang.invoke.StringConcatException;
 import java.util.List;
 
 import com.example.demo.application.port.bo.TurmaBO;
 import com.example.demo.domain.model.Turma;
 
-public interface TurmaInServiceI {
-    public Turma criar(Turma turma);
+public interface TurmaServiceSQLInterface {
 
-    public Turma criarMySQL(Turma turma);
+    public Turma criarTurma(TurmaBO turma);
 
     public List<Turma> getAll();
 
@@ -20,4 +18,5 @@ public interface TurmaInServiceI {
     public Turma retornarCurso(String curso);
 
     public void retornarDeletar(Integer deletar);
+
 }

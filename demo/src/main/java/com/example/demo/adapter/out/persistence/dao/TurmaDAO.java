@@ -1,4 +1,4 @@
-package com.example.demo.adapter.out.dao;
+package com.example.demo.adapter.out.persistence.dao;
 
 public class TurmaDAO {
     private Integer id;

@@ -1,4 +1,4 @@
-package com.example.demo.adapter.out.persistence;
+package com.example.demo.adapter.out.persistence.persisteceList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.example.demo.adapter.out.dao.TurmaDAO;
+import com.example.demo.adapter.out.persistence.dao.TurmaDAO;
 import com.example.demo.application.port.bo.TurmaBO;
-import com.example.demo.application.port.out.TurmaRepositorie;
+import com.example.demo.application.port.out.persisteceExecTime.TurmaRepositorie;
 
 @Component
 public class TurmaPersistence implements TurmaRepositorie {
